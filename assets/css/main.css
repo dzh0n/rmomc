@@ -138,6 +138,7 @@ a:hover {
     justify-content: space-between;
     margin: 0;
     padding: 0;
+    width: 100%;
 }
 
 .main-menu ul a {
@@ -554,4 +555,112 @@ footer {
 
 .footer-copyright a:hover {
     text-decoration: none;
+}
+
+
+@media (max-width: 576px) {
+    .header-top {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .header-top_row {
+        margin-bottom: 10px;
+    }
+
+    .logo img {
+        margin-bottom: 15px;
+    }
+
+    .logo-text {
+        text-align: center;
+        margin: 0 0 15px;
+        font-size: 22px;
+    }
+
+    .logo-text span {
+        font-size: 13px;
+    }
+
+    .header-contacts a {
+        font-size: 16px;
+    }
+
+    .carousel-item_caption {
+        font-size: 22px;
+    }
+
+    .carousel-item_text {
+        font-size: 14px;
+    }
+
+    .carousel-item {
+        height: 450px;
+    }
+
+    .block-title {
+        font-size: 28px;
+    }
+
+    .about p {
+        font-size: 14px;
+    }
+
+    .block-title_link {
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    .news-date, .event-date, .review-date {
+        font-size: 14px;
+    }
+
+    .news-title, .event-title {
+        font-size: 18px;
+    }
+
+    .news-content, .event-content, .review-content {
+        font-size: 14px;
+    }
+
+    .news-more_link {
+        font-size: 14px;
+    }
+
+    .footer-copyright {
+        margin-bottom: 15px;
+    }
+
+    .footer-contacts {
+        font-size: 14px;
+        margin-top: 25px;
+    }
+
+    .footer-logo {
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+    .footer-menu li {
+        text-align: right;
+    }
+
+    .footer-menu.footer-menu_last li {
+        text-align: left;
+    }
+
+    .main-menu ul {
+        flex-direction: column;
+    }
+
+    .main-menu ul a {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .navbar-toggler {
+        margin-left: 15px;
+    }
+
+
 }
