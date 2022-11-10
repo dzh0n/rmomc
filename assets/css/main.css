@@ -473,10 +473,13 @@ footer {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .footer-menu li {
     margin-bottom: 19px;
+    width: 50%;
 }
 
 .footer-menu a {
@@ -642,7 +645,7 @@ footer {
     }
 
     .footer-menu li {
-        text-align: right;
+        text-align: center;
     }
 
     .footer-menu.footer-menu_last li {
