@@ -560,6 +560,43 @@ footer {
     text-decoration: none;
 }
 
+.map {
+    position: relative;
+}
+
+.map-container {
+    position: relative;
+    z-index: 1;
+}
+
+.map-info {
+    background: #39AAE1;
+    opacity: 0.9;
+    border-radius: 3px;
+    position: absolute;
+    z-index: 2;
+    transform: translateY(-485px);
+}
+
+.map-title {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 122.68%;
+    /* or 44px */
+    color: #FFFFFF;
+}
+
+.map-info_row {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
 
 @media (max-width: 576px) {
     .header-top {
@@ -663,6 +700,29 @@ footer {
 
     .navbar-toggler {
         margin-left: 15px;
+    }
+
+    .map {
+        padding-bottom: 200px;
+    }
+
+    .map-container {
+        height: 480px;
+        overflow: hidden;
+    }
+
+    .map-info {
+        transform: translateY(-120px);
+        left: 0;
+    }
+
+    .map-title {
+        font-size: 28px;
+    }
+
+    .map-info_row {
+        font-size: 14px;
+        line-height: 18px;
     }
 
 
